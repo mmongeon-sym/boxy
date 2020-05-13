@@ -1677,8 +1677,7 @@ class FTPClientMethods(FTPMethods):
                            remote_path: str,
                            remote_file=None,
                            set_ctime=False,
-                           set_mtime=True,
-                           is_box: bool = False
+                           set_mtime=True
                            ):
         return self._download_temp_file(ftp=self.ftp,
                                         remote_path=remote_path,
